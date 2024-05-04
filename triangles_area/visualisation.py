@@ -2,7 +2,7 @@ import tkinter as tk
 
 
 class Visualizer:
-    render_step = 50  # Количество пикселей в 1 значении координатной сетки
+    render_step = 10  # Количество пикселей в 1 значении координатной сетки
 
     def __init__(self, window_width: int, window_height: int):
         self.window = tk.Tk()
